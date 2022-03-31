@@ -29,11 +29,11 @@
         <i class="fas fa-bars toggle-menu"></i>
         <ul>
           <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#Serv">Services</a></li>
+          <li><a href="#Portf">Portfolio</a></li>
+          <li><a href="#abo">About</a></li>
+          <li><a href="#Pric">Pricing</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
         <div class="srch">
           <i class="fas fa-search"></i>
@@ -43,7 +43,7 @@
   </header>
   <!-- End Header -->
   <!-- Start Landing  -->
-  <div class="landing">
+  <div class="landing" id="land">
     <div class="overlay">
       <div class="text">
         <div class="content">
@@ -69,7 +69,7 @@
   <!-- End Landing  -->
 
   <!-- Start Services -->
-  <div class="services">
+  <div class="services" id="Serv">
     <div class="container">
       <!-- Section-->
       <div class="main-heading">
@@ -146,7 +146,7 @@
   </div>
   <!-- End Design Section -->
   <!-- Start Portfolio -->
-  <div class="portfolio">
+  <div class="portfolio" id="Portf">
     <div class="container">
       <div class="main-heading">
         <h2>PORTFOLIO</h2>
@@ -239,7 +239,7 @@
   <!-- End Video Section -->
 
   <!-- Start About Section -->
-  <div class="about">
+  <div class="about" id="abo">
     <div class="container">
       <div class="main-heading">
         <h2>ABOUT US</h2>
@@ -258,22 +258,22 @@
     <div class="container">
       <div class="box">
         <i class="fas fa-mug-hot"></i>
-        <div class="number">1,236</div>
+        <div class="number num" data-goal="1236">0</div>
         <p>Coffe Drinks</p>
       </div>
       <div class="box">
         <i class="fas fa-folder"></i>
-        <div class="number">256</div>
+        <div class="number num" data-goal="256">0</div>
         <p>Completed Projects</p>
       </div>
       <div class="box">
         <i class="fas fa-envelope"></i>
-        <div class="number">1,743</div>
+        <div class="number num" data-goal="1743">0</div>
         <p>Mails Sent</p>
       </div>
       <div class="box">
         <i class="fas fa-trophy"></i>
-        <div class="number">17</div>
+        <div class="number num" data-goal="17">0</div>
         <p>Awards Received</p>
       </div>
     </div>
@@ -355,7 +355,7 @@
   <!-- End Quote -->
 
   <!-- Start Pricing  -->
-  <div class="pricing">
+  <div class="pricing" id="Pric">
     <div class="container">
       <div class="main-heading">
         <h2>Pricing</h2>
@@ -448,7 +448,7 @@
   <!-- End Subscribe -->
 
   <!-- Start Contact -->
-  <div class="contact">
+  <div class="contact" id="Contact">
     <div class="container">
       <div class="main-heading">
         <h2>Contact Us</h2>
@@ -490,6 +490,8 @@
     </div>
   </div>
   <!-- End Footer -->
+
+  <script src="main.js"></script>
 </body>
 
 </html>
